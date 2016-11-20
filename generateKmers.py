@@ -25,10 +25,3 @@ def main(k):
         kmerno = []
         count +=1
     output.close()
-
-
-starttime = time.clock()
-
-main(16)
-endtime = time.clock()
-print(endtime-starttime)
