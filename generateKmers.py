@@ -1,5 +1,4 @@
 __author__ = 'Jonathan'
-import time
 
 def main(k):
     """
