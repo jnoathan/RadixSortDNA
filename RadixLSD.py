@@ -1,5 +1,4 @@
 __author__ = 'Jonathan'
-import time
 
 def radixLSD(therange):
     """
@@ -37,8 +36,3 @@ def radixLSD(therange):
         output.write(str(line[0]) + "\t" + str(line[1]) + "\t" + str(line[2] + "\n"))
     output.close()
 
-starttime = time.clock()
-
-radixLSD(16)
-endtime = time.clock()
-print(endtime-starttime)
